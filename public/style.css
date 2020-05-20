@@ -37,3 +37,36 @@
 .fruit {
     fill: hsl(calc(var(--bread-start) + 11), 72%, 62%); 
 }
+
+header {
+  background-color: hsl(calc(var(--bread-start) + 1), 53%, 44%);
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.pantone {
+    width: 200px;
+  border: 1px solid #c2c2c2;
+}
+
+.swatch {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: hsl(calc(var(--bread-start) + 1), 53%, 44%);
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.name {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+}
