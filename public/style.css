@@ -26,28 +26,28 @@ section {
     fill:#DAEEF5; 
 }
 .bread-right {
-    fill:	hsl(calc(var(--bread-h) + 19), 86%, 71%)
+    fill:	hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) * 1%), 94%)
 }
 .bread-left {
-    fill: 	hsl(calc(var(--bread-h) + 20), 79%, 64%)
+    fill: 	hsl(calc(var(--bread-h) + 20), calc(var(--bread-s) * 1%), 92%)
 }
 .bread-wrap {
-    fill:hsl(calc(var(--bread-h) + 19), 57%, 34%); 
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) * 1%), 52%); 
 }
 .bread-top {
-    fill: hsl(var(--bread-h), 54%, 47%); 
+    fill: hsl(var(--bread-h), calc(var(--bread-s) * 1%), 72%); 
 }
 .bread-shadow {
-    fill:hsl(calc(var(--bread-h) + 1), 53%, 44%); 
+    fill:hsl(calc(var(--bread-h) + 1), calc(var(--bread-s) * 1%), 67%); 
 }
 .bread-slice {
-    fill:hsl(calc(var(--bread-h) + 19), 85%, 71%); 
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) * 1%), 96%); 
 }
 .rasins {
-    fill:hsl(calc(var(--bread-h) - 5), 31%, 35%); 
+    fill:hsl(calc(var(--bread-h) - 5), calc(var(--bread-s) * 1%), 45%); 
 }
 .fruit {
-    fill: hsl(calc(var(--bread-h) + 11), 72%, 62%); 
+    fill: hsl(calc(var(--bread-h) + 11), calc(var(--bread-s) * 1%), 89%); 
 }
 
 header {
