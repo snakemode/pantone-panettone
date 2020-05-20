@@ -2,9 +2,19 @@
     --bread-start: 26; 
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 100%;
+}
+
 #panettone {
   max-width: 700px;
-  max-height: 90vh;
+  height: calc(100vh - 100px);
 }
 
 .plate-bottom {
@@ -39,6 +49,7 @@
 }
 
 header {
+  margin-bottom: 20px;
   background-color: hsl(calc(var(--bread-start) + 1), 53%, 44%);
   color: white;
 }
@@ -48,11 +59,17 @@ h1 {
   padding: 20px;
   text-align: center;
   font-family: 'Lobster', cursive;
+  font-size: 2.5em;
 }
 
 .pantone {
+  margin-top: 30px;
     width: 200px;
   border: 1px solid #c2c2c2;
+}
+
+aside {
+  margin-top: 20px;
 }
 
 .swatch {
