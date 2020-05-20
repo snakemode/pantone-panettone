@@ -26,33 +26,33 @@ section {
     fill:#DAEEF5; 
 }
 .bread-right {
-    fill:	hsl(calc(var(--bread-h) + 19), 86%, 71%)
+    fill:	hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 18%), 71%)
 }
 .bread-left {
-    fill: 	hsl(calc(var(--bread-h) + 20), 79%, 64%)
+    fill: 	hsl(calc(var(--bread-h) + 20), calc(var(--bread-s) + 15%), 64%)
 }
 .bread-wrap {
-    fill:hsl(calc(var(--bread-h) + 19), 57%, 34%); 
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 7%), 34%); 
 }
 .bread-top {
-    fill: hsl(var(--bread-h), 54%, 47%); 
+    fill: hsl(var(--bread-h), calc(var(--bread-s) + 4%), 47%); 
 }
 .bread-shadow {
-    fill:hsl(calc(var(--bread-h) + 1), 53%, 44%); 
+    fill:hsl(calc(var(--bread-h) + 1), var(--bread-s), 44%); 
 }
 .bread-slice {
-    fill:hsl(calc(var(--bread-h) + 19), 85%, 71%); 
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 20%), 71%); 
 }
 .rasins {
-    fill:hsl(calc(var(--bread-h) - 5), 31%, 35%); 
+    fill:hsl(calc(var(--bread-h) - 5), calc(var(--bread-s) - 15%), 35%); 
 }
 .fruit {
-    fill: hsl(calc(var(--bread-h) + 11), 72%, 62%); 
+    fill: hsl(calc(var(--bread-h) + 11), calc(var(--bread-s) + 25%), 62%); 
 }
 
 header {
   margin-bottom: 20px;
-  background-color: hsl(calc(var(--bread-h) + 19), 57%, 34%);
+  background-color: hsl(var(--bread-h), calc(var(--bread-s) + 4%), 47%); 
   color: white;
 }
 
