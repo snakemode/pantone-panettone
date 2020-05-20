@@ -101,3 +101,22 @@ label {
   font-size: 1.2em;
    font-family: arial, helvetica, sans-serif;
 }
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 12vw;
+    }
+    main {
+        flex-direction: column-reverse;
+    }
+    section {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    #panettone {
+        height: auto;
+    }
+    aside {
+        margin-bottom: 30px;
+    }
+}
