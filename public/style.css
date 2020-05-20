@@ -59,17 +59,20 @@ h1 {
   padding: 20px;
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .pantone {
   margin-top: 30px;
-    width: 200px;
+  width: 200px;
   border: 1px solid #c2c2c2;
 }
 
 aside {
-  margin-top: 20px;
+  margin: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align
 }
 
 .swatch {
@@ -82,8 +85,16 @@ aside {
 
 .name {
   display: block;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-weight: bold;
+  font-size: 1.6em;
   font-family: arial, helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.6em;
+   font-family: arial, helvetica, sans-serif;
 }
