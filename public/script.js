@@ -8,9 +8,9 @@ function onClick(e) {
   const nearest = getNearestColour(e.target.value);
   const { H, S, L } = rgb2hsl(nearest.rgb);
   
-  root.style.setProperty('--bread-start', H);
-  root.style.setProperty('--pantone', `nearest.rgb.r, nearest.rgb.g, nearest.rgb.b`);
-  console.log(nearest);
+  root.style.setProperty('--bread-h', H);
+  root.style.setProperty('--bread-s', S);
+  root.style.setProperty('--bread-s', L);
   name.innerHTML = nearest.name;
 }
 
