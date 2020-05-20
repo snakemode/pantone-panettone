@@ -1,36 +1,39 @@
-/* this file is loaded by index.html and styles the page */
-
-* {
-  box-sizing: border-box;
+:root {
+    --bread-start: 26; 
 }
 
-body {
-  font-family: sans-serif;
-  margin: 2em 1em;
-  line-height: 1.5em;
+#panettone {
+  max-width: 700px;
+  max-height: 90vh;
 }
 
-main {
-  max-width: 800px;
+.plate-bottom {
+    fill:#9BD3D5; 
 }
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-  max-width: calc(100% - 5rem);
-  line-height: 1.1;
+.plate-top {
+    fill:#DAEEF5; 
 }
-
-.st0{fill:#9BD3D5;}
-.st1{fill:#DAEEF5;}
-.st2{fill:none;}
-.st3{fill:#F5D577;}
-.st4{fill:#ECCA5C;}
-.st5{fill:#876E25;}
-.brea{fill:#B97038;}
-.st7{fill:#AD6A35;}
-.st8{fill:#BA7139;}
-.st9{fill:#A06531;}
-.st10{fill:#F4D578;}
-.st11{fill:#75513D;}
-.st12{fill:#E4AE58;}
+.bread-right {
+    fill:	hsl(calc(var(--bread-start) + 19), 86%, 71%)
+}
+.bread-left {
+    fill: 	hsl(calc(var(--bread-start) + 20), 79%, 64%)
+}
+.bread-wrap {
+    fill:hsl(calc(var(--bread-start) + 19), 57%, 34%); 
+}
+.bread-top {
+    fill: hsl(var(--bread-start), 54%, 47%); 
+}
+.bread-shadow {
+    fill:hsl(calc(var(--bread-start) + 1), 53%, 44%); 
+}
+.bread-slice {
+    fill:hsl(calc(var(--bread-start) + 19), 85%, 71%); 
+}
+.rasins {
+    fill:hsl(calc(var(--bread-start) - 5), 31%, 35%); 
+}
+.fruit {
+    fill: hsl(calc(var(--bread-start) + 11), 72%, 62%); 
+}
