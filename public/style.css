@@ -72,7 +72,7 @@ aside {
   margin: 20px 20px 0 0;
   display: flex;
   flex-direction: column;
-  align
+  align-items: center;
 }
 
 .swatch {
@@ -94,7 +94,8 @@ aside {
 
 label {
   display: block;
+  margin-bottom: 10px;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.2em;
    font-family: arial, helvetica, sans-serif;
 }
