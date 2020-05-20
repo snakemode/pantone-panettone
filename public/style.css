@@ -1,5 +1,6 @@
 :root {
-    --bread-start: 26; 
+    --bread-start: 26;
+    --pantone: 185, 112, 56;
 }
 
 main {
@@ -79,7 +80,7 @@ aside {
   display: block;
   height: 200px;
   width: 200px;
-  background-color: hsl(calc(var(--bread-start) + 1), 53%, 44%);
+  background-color: rgb(var(--pantone));
   border-bottom: 1px solid #c2c2c2;
 }
 
