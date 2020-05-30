@@ -1,0 +1,122 @@
+:root {
+    --bread-h: 26;
+    --bread-s: 54%;
+    --bread-l: 47%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 100%;
+}
+
+#panettone {
+  max-width: 700px;
+  height: calc(100vh - 100px);
+}
+
+.plate-bottom {
+    fill:#9BD3D5; 
+}
+.plate-top {
+    fill:#DAEEF5; 
+}
+.bread-right {
+    fill:	hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 18%), 71%)
+}
+.bread-left {
+    fill: 	hsl(calc(var(--bread-h) + 20), calc(var(--bread-s) + 15%), 64%)
+}
+.bread-wrap {
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 7%), 34%); 
+}
+.bread-top {
+    fill: hsl(var(--bread-h), calc(var(--bread-s) + 4%), 47%); 
+}
+.bread-shadow {
+    fill:hsl(calc(var(--bread-h) + 1), var(--bread-s), 44%); 
+}
+.bread-slice {
+    fill:hsl(calc(var(--bread-h) + 19), calc(var(--bread-s) + 20%), 71%); 
+}
+.rasins {
+    fill:hsl(calc(var(--bread-h) - 5), calc(var(--bread-s) - 15%), 35%); 
+}
+.fruit {
+    fill: hsl(calc(var(--bread-h) + 11), calc(var(--bread-s) + 25%), 62%); 
+}
+
+header {
+  margin-bottom: 20px;
+  background-color: hsl(var(--bread-h), calc(var(--bread-s) + 4%), 47%); 
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.pantone {
+  margin-top: 30px;
+  width: 200px;
+  border: 1px solid #c2c2c2;
+}
+
+aside {
+  margin: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swatch {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: hsl(var(--bread-h), var(--bread-s), var(--bread-l));
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.name {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  font-family: arial, helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+   font-family: arial, helvetica, sans-serif;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 12vw;
+    }
+    main {
+        flex-direction: column-reverse;
+    }
+    section {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    #panettone {
+        height: auto;
+    }
+    aside {
+        margin-bottom: 30px;
+    }
+}
